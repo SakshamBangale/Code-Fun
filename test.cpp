@@ -19,3 +19,13 @@ int multiply;
 
   
 }
+
+void divide(int a , int b){
+
+int multiply;
+
+  cout<<"Divide : "<<a/b;
+
+
+  
+}
