@@ -8,3 +8,14 @@ int main(){
 
   cout<<"Sum : "<<num1+num2;
 }
+
+
+void multi(int a , int b){
+
+int multiply;
+
+  cout<<"Multiplying : "<<a*b;
+
+
+  
+}
