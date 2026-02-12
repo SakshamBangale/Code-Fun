@@ -5,5 +5,8 @@ using namespace std;
 
 int main(){
 
-    cout<<"Hello world";
+   int num1,num2;
+
+   cout<<"Sum : "<<num1+num2;
+   
 }
