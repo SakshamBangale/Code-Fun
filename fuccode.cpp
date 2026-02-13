@@ -1,19 +1,19 @@
-#include<iostream>
-
+#include <iostream>
 
 using namespace std;
 
-int main(){
+int main()
+{
 
-   int num1, num2,sum;
+  int a;
 
-   cout<<"Enter a Value for Calculting value ";
-   cout<<"Enter a 1st Value : ";
-   cin>>num1;
-   cout<<"Enter a 2nd Value : ";
-   cin>>num2;
+  for (int i = 1; i < 5; i++)
+  {
+    for (int j = 1; j < 5; j++)
+  {
+    cout<<"{"<<j<<i<<"}";
+  }
+cout<<end;
 
-   sum = num1+num2;
-   cout<<"Sum : "<<sum;
-   
+  }
 }
