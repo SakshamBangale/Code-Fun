@@ -1,56 +1,31 @@
-#include <iostream>
+// swaping Number
+#include<iostream>
 
 using namespace std;
 
-int main()
-{
+int main(){
 
-  int a;
+  int a,b,c{0};
+
+  cout<<"Enter a 2 Number for A and B "<<endl;
+  cout<<"We swap That "<<endl;
+
+
+  cout<<"Enter a value for A : ";
+  cin>>a;
+
+  cout<<endl<<"Enter a value for B : ";
+  cin>>a;
+
+  c = b ;
+  b = a ;
+  a =c ;
   
+  cout<<"A : "<<a<<" B : "<<b;
 
-  for (int i = 1; i < 10; i+1)
-  {
-    for (int j = 1; j < i; j+i)
-    {
-      cout << "*" ;
-    }
-    cout << endl;
-  }
-}
-#include <iostream>
 
-using namespace std;
-
-int multiply()
-{
-
-  int a;
-
-  for (int i = 1; i < 5; i++)
-  {
-    for (int j = 1; j < i; j+i)
-    {
-      cout << "*" ;
-    }
-    cout << endl;
-  }
-  
-}
+  return 0;
 
 
 
-
-int addition()
-{
-
-  int a;
-
-  for (int i = 1; i < 5; i++)
-  {
-    for (int j = 1; j < i; j+i)
-    {
-      cout << "*" ;
-    }
-    cout << endl;
-  }
 }
