@@ -1,31 +1,44 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
-int main(){
 
+class Solution
+{
 
-  int num1 , num2;
+public:
+  int findlength(string s)
+  {
+    return s.length();
+  }
+};
 
-  cout<<"Sum : "<<num1+num2;
-}
+int main()
+{
 
+  Solution obj;
 
-void multi(int a , int b){
+  string s = "hello i am saksham";
 
-int multiply;
+  // cout << obj.findlength(s) << endl;
 
-  cout<<"Multiplying : "<<a*b;
+  for (int i = 0; i < obj.findlength(s); i++)
+  {
+    /* code */
 
-
+    // " " == s[i]; hello i am saksham
+    string a = " ";
   
-}
+    if (s[i] == a[0])
+    {
+      cout<<endl;
+    }
+    else
+    {
+      cout << s[i];
+    }
 
-void divide(int a , int b){
+   
+  }
 
-int multiply;
-
-  cout<<"Divide : "<<a/b;
-
-
-  
+  return 0;
 }
