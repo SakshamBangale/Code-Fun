@@ -1,6 +1,3 @@
-
-
-
 // swaping Number
 #include<iostream>
 
