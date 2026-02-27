@@ -23,7 +23,14 @@ int main(){
   a =c ;
   
   cout<<"A : "<<a<<" B : "<<b;
+  cout<<"A : "<<a<<" B : "<<b;
+  cout<<"A : "<<a<<" B : "<<b;
 
+
+
+
+
+  
 
   return 0;
 
