@@ -25,7 +25,16 @@ int main(){
 
   cout<<endl<<"Enter a value for B : ";
   cin>>a;
-
+  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;  cout<<endl<<"Enter a value for B : ";
+  cin>>a;
   c = b ;
   b = a ;
   a =c ;
