@@ -13,6 +13,15 @@ int main(){
 
   cout<<"Enter a value for A : ";
   cin>>a;
+   cout<<"Enter a value for A : ";
+  cin>>a;
+ cout<<"Enter a value for A : ";
+  cin>>a;
+ cout<<"Enter a value for A : ";
+  cin>>a;
+ cout<<"Enter a value for A : ";
+  cin>>a;
+
 
   cout<<endl<<"Enter a value for B : ";
   cin>>a;
