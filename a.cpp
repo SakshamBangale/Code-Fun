@@ -1,6 +1,9 @@
 #include <iostream>
 #include <iterator>
 
+#include <iostream>
+#include <iterator>
+
 using namespace std;
 
 class Student {
