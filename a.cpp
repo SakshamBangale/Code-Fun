@@ -18,6 +18,22 @@ public:
       cout << endl;
     }
   }
+void print1(int x) {
+
+    for (int i = 0; i <= x; i++) {
+      for (int j = 0; j < x; j++)
+        cout << "*";
+      cout << endl;
+    }
+  }
+void print1(int x) {
+
+    for (int i = 0; i <= x; i++) {
+      for (int j = 0; j < x; j++)
+        cout << "*";
+      cout << endl;
+    }
+  }
   void print2(int x) {
 
     for (int i = 1; i <= x; i++) {
