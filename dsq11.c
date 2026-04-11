@@ -12,6 +12,7 @@ void findMajority(int arr[], int n) {
         if (arr[i] == candidate1) {
             count1++;
         }
+            
         else if (arr[i] == candidate2) {
             count2++;
         }
