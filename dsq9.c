@@ -1,3 +1,6 @@
+
+
+
 // Problem Statement
 
 // Design a stack using an array with the following operations:
@@ -55,4 +58,17 @@ void peek() {
     }
     printf("Top: %d\n", stack[top]);
 }
+
+// Main function
+int main() {
+    push(10);
+    push(20);
+    push(30);
+
+    pop();
+    peek();
+
+    return 0;
+}
+
 
