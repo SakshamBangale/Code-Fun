@@ -9,18 +9,7 @@
 int stack[MAX];
 int top = -1;
 
-// PUSH
-void push() {
-    int value;
-    if (top == MAX - 1) {
-        printf("Stack Overflow\n");
-    } else {
-        printf("Enter value to push: ");
-        scanf("%d", &value);
-        top++;
-        stack[top] = value;
-    }
-}
+
 
 // Pop 
 void pop() {
