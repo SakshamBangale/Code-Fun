@@ -1,8 +1,5 @@
 // Given an integer array, find the maximum sum of a contiguous subarray.
 
-#include <stdio.h>
-#include <limits.h>
-
 int maxSubarraySum(int arr[], int n) {
     int max_sum = INT_MIN;
     int current_sum = 0;
