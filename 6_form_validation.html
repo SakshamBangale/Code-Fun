@@ -1,0 +1,10 @@
+<script>
+function validate(){
+let name=document.getElementById("n").value;
+if(name==""){alert("Enter name"); return false;}
+}
+</script>
+<form onsubmit="return validate()">
+<input id="n">
+<input type="submit">
+</form>
