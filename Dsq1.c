@@ -1,6 +1,7 @@
 // Write a menu driven program in C for implementing the below functionality of arrays 1. Create an array 2. Display the array in Forward Direction 3. Insert into an array 4. Delete from an array 5. Search in an array 6. Display the array in Backward Direction 7.Exit
 
 
+
 #include <stdio.h>
 
 int main() {
