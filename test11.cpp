@@ -1,6 +1,7 @@
 #include<>
 class Solution {
 public:
+
     void pattern2(int n) {
 
 
