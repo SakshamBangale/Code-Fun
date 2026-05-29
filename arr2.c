@@ -1,4 +1,4 @@
-// Read Array from File
+
 #include <stdio.h>
 
 int main() {
