@@ -3,6 +3,7 @@
 int main() {
     int arr[5], i;
     FILE *fp;
+    
 
     fp = fopen("data.txt", "r");
 
