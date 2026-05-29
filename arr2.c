@@ -2,6 +2,7 @@
 
 int main() {
     int arr[5], i;
+    
     FILE *fp;
     
 
